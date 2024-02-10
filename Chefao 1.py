@@ -1,0 +1,6 @@
+nome = input ('Hola, como te llamas?  ')
+dia = input ('Que dia naciste? dd ')
+mes = input ('de cual mes? letras ')
+ano = input ('finalmente, dime el año? aaaa ')
+ano = int(ano)
+print('Hola,',nome , 'Que placer conocerte! ','Veo que naciste el ',dia, 'de ',mes, 'del año ',ano, ', Es correcto?.', 'Dejame decirte que tienes ',(2024-ano),'años' )
